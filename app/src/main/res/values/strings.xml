@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Apto Example App</string>
+    <string name="main_button">Let\'s get you started</string>
+    <string name="main_icon_content_description">Logo</string>
+    <string name="description">Description.</string>
+    <string name="instructions">By continuing, you agree to Terms of Service and Privacy Policy</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAj21pmvNCyCzFqYq2D3nL4FwYPCzpHwRA</string>
+    <string name="force_update_title">Update Example App</string>
+    <string name="force_update_description">A new version of the app is now available. Please go to Google Play to download it.</string>
+    <string name="force_update_continue_button_text">Update now</string>
+    <string name="version_ids">Version %1$s</string>
+
+    <string name="apto_deep_link_scheme">aptopayments</string>
+    <string name="apto_environment">SBX</string>
+    <string name="apto_api_key">my_apto_api_key</string>
+</resources>

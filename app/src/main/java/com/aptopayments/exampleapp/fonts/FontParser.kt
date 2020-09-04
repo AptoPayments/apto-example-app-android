@@ -3,7 +3,7 @@ package com.aptopayments.exampleapp.fonts
 import android.content.Context
 import android.content.res.AssetManager
 import android.graphics.Typeface
-import com.aptopayments.core.features.managecard.FontOptions
+import com.aptopayments.mobile.features.managecard.FontOptions
 
 class FontParser(context: Context) {
 

@@ -1,7 +1,8 @@
 package com.aptopayments.exampleapp
 
 import android.app.Application
-import com.aptopayments.core.platform.AptoSdkEnvironment
+import com.aptopayments.mobile.platform.AptoSdkEnvironment
+
 import com.aptopayments.sdk.core.platform.AptoUiSdk
 
 class CardApp : Application() {

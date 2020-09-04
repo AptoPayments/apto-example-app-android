@@ -30,9 +30,8 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.2.0'
-    implementation 'com.aptopayments.sdk:core:2.10.0'
-    implementation 'com.aptopayments.sdk:ui:2.7.0'
-    testImplementation 'junit:junit:4.13'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+    implementation 'com.google.firebase:firebase-core:17.5.0'
+    implementation 'com.aptopayments.sdk:mobile:3.0.0'
+    implementation 'com.aptopayments.sdk:ui:3.0.0'
 }

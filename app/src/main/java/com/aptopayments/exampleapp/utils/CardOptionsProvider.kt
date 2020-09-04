@@ -1,7 +1,7 @@
 package com.aptopayments.exampleapp.utils
 
-import com.aptopayments.core.features.managecard.CardOptions
 import com.aptopayments.exampleapp.fonts.FontParser
+import com.aptopayments.mobile.features.managecard.CardOptions
 
 /**
  * CardOptionsProvider

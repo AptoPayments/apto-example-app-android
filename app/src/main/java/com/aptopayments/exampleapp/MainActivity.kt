@@ -6,10 +6,10 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
-import com.aptopayments.core.platform.AptoPlatformDelegate
 import com.aptopayments.exampleapp.fonts.FontParser
 import com.aptopayments.exampleapp.fonts.FontType
 import com.aptopayments.exampleapp.utils.CardOptionsProvider
+import com.aptopayments.mobile.platform.AptoPlatformDelegate
 import com.aptopayments.sdk.core.extension.hide
 import com.aptopayments.sdk.core.extension.show
 import com.aptopayments.sdk.core.platform.AptoUiSdk

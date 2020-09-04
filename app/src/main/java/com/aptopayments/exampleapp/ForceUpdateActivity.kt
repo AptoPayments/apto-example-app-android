@@ -6,9 +6,9 @@ import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.aptopayments.core.data.config.UIStatusBarStyle
 import com.aptopayments.exampleapp.fonts.FontParser
 import com.aptopayments.exampleapp.fonts.FontType
+import com.aptopayments.mobile.data.config.UIStatusBarStyle
 import com.aptopayments.sdk.core.ui.StatusBarUtil
 import com.aptopayments.sdk.utils.ViewUtils
 import kotlinx.android.synthetic.main.activity_force_update.*

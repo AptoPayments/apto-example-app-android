@@ -2,6 +2,7 @@ package com.aptopayments.exampleapp.utils
 
 import com.aptopayments.exampleapp.fonts.FontParser
 import com.aptopayments.mobile.features.managecard.CardOptions
+import com.aptopayments.mobile.features.managecard.CardOptions.PCIAuthType
 
 /**
  * CardOptionsProvider
@@ -15,7 +16,7 @@ class CardOptionsProvider(private val fontParser: FontParser) {
         showDetailedCardActivityOption = true,
         hideFundingSourcesReconnectButton = true,
         authenticateOnStartup = false,
-        authenticateWithPINOnPCI = false,
+        authenticateOnPCI = PCIAuthType.NONE,
         fontOptions = fontParser.getFontOptions()
     )
 }

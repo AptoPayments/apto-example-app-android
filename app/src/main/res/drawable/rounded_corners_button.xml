@@ -3,7 +3,7 @@
 
     <item android:state_enabled="false">
         <shape>
-            <solid android:color="@color/button_inactive"/>
+            <solid android:color="@color/main_elements_color_disabled"/>
             <corners
                 android:radius="12dp"/>
         </shape>
@@ -11,7 +11,7 @@
 
     <item android:state_enabled="true" >
         <shape>
-            <solid android:color="@color/button_active"/>
+            <solid android:color="@color/main_elements_color"/>
             <corners
                 android:radius="12dp"/>
         </shape>

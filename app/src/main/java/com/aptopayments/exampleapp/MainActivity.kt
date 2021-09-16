@@ -13,8 +13,9 @@ import com.aptopayments.mobile.platform.AptoPlatformDelegate
 import com.aptopayments.sdk.core.extension.hide
 import com.aptopayments.sdk.core.extension.show
 import com.aptopayments.sdk.core.platform.AptoUiSdk
-import com.aptopayments.sdk.utils.MessageBanner
 import com.aptopayments.sdk.utils.ViewUtils.hideKeyboard
+import com.aptopayments.sdk.utils.extensions.SnackbarMessageType
+import com.aptopayments.sdk.utils.extensions.showCustomSnackbar
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.include_rl_loading.*
 
@@ -105,7 +106,7 @@ class MainActivity : AppCompatActivity(), AptoPlatformDelegate {
         rl_loading_view.startAnimation(AnimationUtils.loadAnimation(this, R.anim.fade_out))
     }
 
-    private fun notify(message: String) = MessageBanner().showBanner(this, message, MessageBanner.MessageType.ERROR)
+    private fun notify(message: String) = showCustomSnackbar(message, SnackbarMessageType.ERROR)
 
     override fun sdkDeprecated() {
         startActivity(ForceUpdateActivity.callingIntent(this))
